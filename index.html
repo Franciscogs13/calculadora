@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./estilos/style.css">
+  <link rel="stylesheet" href="./estilos/mediaQuery.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <img src="./assets/treinamento-de-treino-ao-ar-livre-estilo-de-vida-saudavel-corrida-ao-ar-livre-atividade-fisica-atleta-masculino-correndo-no-parque-esportista-muscular-exercitando-ao-ar-livre-ilustracao-vetorial-.png" alt="imagem de duas pessoas fazendo execício">
+
+    <form class="form">
+      <h1>Calculadora-IMC</h1>
+      <label for="peso">Peso:</label>
+      <input type="text" id="peso" name="peso" maxlength="3" required>
+
+      <label for="altura">Altura:</label>
+      <input type="text" name="altura" id="altura" maxlength="4" required>
+
+      <button id="calcular">Calcular</button>
+      <div id="resultado"></div>
+      <hr>
+      <a href="https://www.tuasaude.com/calculadora/imc/" target="_blank">Para mais informações sobre IMC <i class='bx bx-link-external'></i></a>
+    </form>
+  </div>
+
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
