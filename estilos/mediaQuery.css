@@ -23,7 +23,7 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 800px) {
   /* Tablets */
   .container {
     width: 90%;
@@ -45,7 +45,7 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 801px) and (max-width: 1024px) {
   /* Desktops pequenos */
   .container {
     width: 70%;
